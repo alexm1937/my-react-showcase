@@ -29,10 +29,14 @@ code {
 .only-best {
   background-image: url("./assets/imgs/bg1.jpg");
   height: 200px;
-  background-position-x: center;
-  background-position-y: 30%;
+  background-position-x: 60%;
+  background-position-y: 40%;
   color: white;
   text-align: right;
+}
+.avatart {
+  height: 180px;
+  /* width: 200px; */
 }
 /* CSS HEX */
 /* --davys-grey: #484a47ff;
