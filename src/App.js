@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import Nav from './components/Nav';
-import Nav from './components/Header';
-
+import Header from './components/Header';
+import About from './components/About';
 
 function App() {
 
@@ -11,10 +11,9 @@ function App() {
   //returns html body 
   return (
     <div>
-      <Nav></Nav>
-
+      <Header></Header>
       <main>
-
+        <About></About>
       </main>
     </div>
   );

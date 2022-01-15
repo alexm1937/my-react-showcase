@@ -11,7 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.bg-1 {
+  background-color:  #484a47ff;
+}
+.bg-2 {
+  background-color:  #5c6d70ff;
+}
+.bg-3{
+  background-color:  #b8e0d2ff;
+}
+.bg-4{
+  background-color:  #d6eadfff;
+}
+.bg-5{
+  background-color:  #bea8a7ff;
+}
+.only-best {
+  background-image: url("./assets/imgs/bg1.jpg");
+  height: 200px;
+  background-position-x: center;
+  background-position-y: 30%;
+  color: white;
+  text-align: right;
+}
 /* CSS HEX */
 /* --davys-grey: #484a47ff;
 --cadet: #5c6d70ff;
