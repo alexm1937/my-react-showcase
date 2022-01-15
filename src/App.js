@@ -1,10 +1,21 @@
+import React, { useState } from 'react';
+// import Nav from './components/Nav';
+import Nav from './components/Header';
+
 
 function App() {
+
+  //consts and props up here
+
+
+  //returns html body 
   return (
-    <div className="App">
-      <header className="bg-danger">
-          Learn React
-      </header>
+    <div>
+      <Nav></Nav>
+
+      <main>
+
+      </main>
     </div>
   );
 }
