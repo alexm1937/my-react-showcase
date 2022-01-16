@@ -18,8 +18,27 @@ function App() {
     { name: 'contact', description: 'How to get ahold of me' },
     { name: 'resume', description: 'My resume page' },
   ]);
-  //hooks and state 
+  //hooks and state of section
   const [currentSection, setCurrentSection] = useState(sections[0]);
+
+  //project data (REQUIRES SIX PROJECTS)
+  const [projects] = useState([
+    {
+      // img:
+      title: 'NoSqlSocial',
+      appLink: 'https://watch.screencastify.com/v/BIvs3Gw9DZzkuZkChlE2',
+      repoLink: 'https://github.com/alexm1937/no-sql-social'
+    },
+    {
+      // img:
+      title: 'BlogSpot',
+      appLink: 'https://infinite-dawn-27184.herokuapp.com/',
+      repoLink: 'https://github.com/alexm1937/blogSpot'
+    },
+    {}
+    ]);
+  //hooks and state of project (hover or not)
+
 
   //returns html body 
   return (
@@ -33,7 +52,10 @@ function App() {
 
       <main>
         { currentSection === sections[0] && <About></About> }
-        { currentSection === sections[1] && <Portfolio></Portfolio> }
+        { currentSection === sections[1] && <Portfolio
+        //props for portfolio and proj components:
+        projects = {projects}
+        ></Portfolio> }
         { currentSection === sections[2] && <ContactForm></ContactForm> }
         { currentSection === sections[3] && <Resume></Resume> }
         <Footer></Footer>
