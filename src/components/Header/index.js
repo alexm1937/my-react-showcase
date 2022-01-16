@@ -2,11 +2,20 @@ import React from "react";
 import Nav from '../Nav';
 import avatart from '../../assets/imgs/avatarimg.jpg';
 
-function Header() {
-// const {} = props;
+function Header(props) {
+    const {
+        sections = {},
+        setCurrentSection,
+        currentSection
+    } = props;
+
     return (
         <div>
-            <Nav></Nav>
+            <Nav
+                sections = {sections}
+                setCurrentSection={setCurrentSection}
+                currentSection={currentSection}
+            ></Nav>
             <figure className="only-best">
             <h2>Only The Best!</h2>
             <img src={avatart} alt='avatar image' className="avatart"></img>
