@@ -33,11 +33,17 @@ code {
   background-position-y: 40%;
   color: white;
   text-align: right;
+  margin: 0;
 }
 .avatart {
   height: 180px;
   /* width: 200px; */
 }
+.customclass1 {
+  max-width: 1000px;
+}
+
+
 /* CSS HEX */
 /* --davys-grey: #484a47ff;
 --cadet: #5c6d70ff;

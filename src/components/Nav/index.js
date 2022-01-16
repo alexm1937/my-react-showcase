@@ -16,19 +16,14 @@ function Nav(props) {
                 <div className="navbar-nav  d-flex flex-wrap">
                     {/* creates an <a> nav tag for every section in sectionsArr */}
                     {sections.map((section) => (
-                        <a
+                        <a href='#'
+                        //short circuit expression to highlight current section
                         className={`nav-link fw-bold ${currentSection.name === section.name && `active aria-current`} `}
-                        key={section.name}
-                        >
-                        <span
-                            // give each button a function to update state when clicked
-                            onClick={() => { 
-                            setCurrentSection(section); 
-                            }}
-                        >
-                            {capitalizeFirstLetter(section.name)}
-                        </span>
-                        </a>
+                        key={section.name}  
+                        //gives onClick function to each btn
+                        onClick={() => { setCurrentSection(section);}}>
+                        {/* gives text value of name to btn and capitalizes first letter */}
+                        {capitalizeFirstLetter(section.name)} </a> 
                     ))}
                 </div>
             </div>

@@ -5,7 +5,7 @@ import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 // import Nav from './components/Nav';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 // import Project from './components/Project';
 
 function App() {
@@ -38,6 +38,7 @@ function App() {
         { currentSection === sections[1] && <Portfolio></Portfolio> }
         { currentSection === sections[2] && <ContactForm></ContactForm> }
         { currentSection === sections[3] && <Resume></Resume> }
+        <Footer></Footer>
       </main>
     </div>
   );
