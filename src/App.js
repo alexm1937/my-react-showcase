@@ -35,8 +35,31 @@ function App() {
       appLink: 'https://infinite-dawn-27184.herokuapp.com/',
       repoLink: 'https://github.com/alexm1937/blogSpot'
     },
-    {}
-    ]);
+    {
+      //img:
+      title: 'What Is That Song',
+      appLink: 'https://alexm1937.github.io/what-is-that-song/',
+      repoLink: 'https://github.com/alexm1937/what-is-that-song'
+    },
+    {
+      //img:
+      title: 'GameSpotBlog',
+      appLink: 'https://tranquil-tor-89831.herokuapp.com/',
+      repoLink: 'https://github.com/alexm1937/gameSpotBlog'
+    },
+    {
+      //img:
+      title: 'Hourly Work Planner',
+      appLink: 'https://alexm1937.github.io/hourly-work-planner/',
+      repoLink: 'https://github.com/alexm1937/hourly-work-planner'
+    },
+    {
+      //img:
+      title: 'ReadMe-Generator',
+      appLink: 'https://watch.screencastify.com/v/xOA9DzGpCk6acVz6sZGn',
+      repoLink: 'https://github.com/alexm1937/ReadMe-Generator'
+    }
+  ]);
   //hooks and state of project (hover or not)
 
 
