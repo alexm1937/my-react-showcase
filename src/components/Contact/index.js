@@ -56,12 +56,14 @@ function ContactForm() {
           <textarea type="message" className="form-control" name="message" defaultValue={message} onBlur={handleChange}/>
         </div>
         
+        <div className="mb-3 customclass1 d-block mx-auto">
         {/* jsx equiv to if statement:  */}
         {errorMessage && (
                 <div>
                     <p className="error-text">{errorMessage}</p>
                 </div>
                 )}
+        </div>
         <button type="submit" className="btn btn-primary customclass1 d-block mx-auto">Submit</button>
       </form>
       )
