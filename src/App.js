@@ -35,17 +35,10 @@ function App() {
       ></Header>
 
       <main>
-        {/* <About></About> */}
-        <ContactForm></ContactForm>
-
-        {/* {!aboutSelected ? (
-        <>
-          <Gallery currentCategory={currentCategory}></Gallery>
-          <About></About>
-        </>
-      ) : (
-          <ContactForm></ContactForm>
-        )} */}
+        { aboutSelected && <About></About>}
+        {/* { portfolioSelected && <Portfolio></Portfolio>} */}
+        { contactSelected && <ContactForm></ContactForm>}
+        {/* { resumeSelected && <Resume></Resume> } */}
         
       </main>
     </div>
