@@ -20,11 +20,6 @@ function App() {
   ]);
   const [currentSection, setCurrentSection] = useState(sections[0]);
 
-  const [aboutSelected, setAboutSelected] = useState(true);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [contactSelected, setContactSelected ] = useState(false);
-  const [resumeSelected, setResumeSelected ] = useState(false);
-
   //returns html body 
   return (
     <div>
@@ -35,11 +30,8 @@ function App() {
       ></Header>
 
       <main>
-        { aboutSelected && <About></About>}
-        {/* { portfolioSelected && <Portfolio></Portfolio>} */}
-        { contactSelected && <ContactForm></ContactForm>}
-        {/* { resumeSelected && <Resume></Resume> } */}
-        
+        { currentSection === sections[0] && <About></About> }
+        { currentSection === sections[2] && <ContactForm></ContactForm> }
       </main>
     </div>
   );
