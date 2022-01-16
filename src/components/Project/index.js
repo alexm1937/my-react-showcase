@@ -1,32 +1,27 @@
 import React from "react";
 
+
 function Project(props) {
     //array containing proj objects
     const {projects = [] }  = props;
-
+    
     return (
         // console.log(projects)
-        <div>
+        <div className="d-flex flex-wrap">
 
         {/* map over each project and return a card? */}
         {projects.map((project) => (
 
         <div 
-        className={"card"}
-        key={project.title}        
-        // style="width: 18rem;"
+        className="card col-9 col-sm-5 m-4 mx-auto"
+        key={project.title}
         >
-            <img src="..." class="card-img-top" alt="..."/>
-            <div class="card-body">
-            <h5 class="card-title">{project.title}</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            </ul>
-            <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <img src="..." className="card-img-top" alt="..."/>
+            <div className="card-body">
+            <h5 className="card-title">{project.title}</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href={project.repoLink} target="_blank" className="card-link">Repo Link</a>
+            <a href={project.appLink} target="_blank" className="card-link">Live Link</a>
             </div>
         </div>
         ))}
