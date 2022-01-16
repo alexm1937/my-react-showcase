@@ -1,5 +1,10 @@
 import React from "react";
-
+// import img1 from "../../assets/imgs/what-song.png";
+// import ReadMeImg from "../../assets/imgs/readme.png";
+// import HourlyPlannerImg from "../../assets/imgs/hourly-planner.png";
+// import GameBlogImg from "../../assets/imgs/gameblog.jpg";
+// import BlogSpotImg from "../../assets/imgs/blogspot.png";
+// import whatSongImg from "../../assets/imgs/02-run-buddy.jpg";
 
 function Project(props) {
     //array containing proj objects
@@ -16,7 +21,7 @@ function Project(props) {
         className="card col-9 col-sm-5 m-4 mx-auto"
         key={project.title}
         >
-            <img src="..." className="card-img-top" alt="..."/>
+            <img src={project.img} className="card-img-top" alt=".a."/>
             <div className="card-body">
             <h5 className="card-title">{project.title}</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

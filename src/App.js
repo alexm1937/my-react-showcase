@@ -5,6 +5,12 @@ import ContactForm from './components/Contact'; //contact page
 import Portfolio from './components/Portfolio'; //Portfolio page (with project components)
 import Resume from './components/Resume'; //resume
 import Footer from './components/Footer'; //footer
+import img1 from "./assets/imgs/what-song.png";
+import img6 from "./assets/imgs/readme.png";
+import img5 from "./assets/imgs/hourly-planner.png";
+import img4 from "./assets/imgs/gameblog.jpg";
+import img2 from "./assets/imgs/blogspot.png";
+import img3 from "./assets/imgs/02-run-buddy.jpg";
 
 function App() {
 
@@ -24,37 +30,37 @@ function App() {
   //project data (REQUIRES SIX PROJECTS)
   const [projects] = useState([
     {
-      // img:
-      title: 'NoSqlSocial',
-      appLink: 'https://watch.screencastify.com/v/BIvs3Gw9DZzkuZkChlE2',
-      repoLink: 'https://github.com/alexm1937/no-sql-social'
+      img: img1,
+      title: 'Run Buddy',
+      appLink: 'https://alexm1937.github.io/run-buddy/',
+      repoLink: 'https://github.com/alexm1937/run-buddy'
     },
     {
-      // img:
+      img: img2,
       title: 'BlogSpot',
       appLink: 'https://infinite-dawn-27184.herokuapp.com/',
       repoLink: 'https://github.com/alexm1937/blogSpot'
     },
     {
-      //img:
+      img: img3,
       title: 'What Is That Song',
       appLink: 'https://alexm1937.github.io/what-is-that-song/',
       repoLink: 'https://github.com/alexm1937/what-is-that-song'
     },
     {
-      //img:
+      img: img4,
       title: 'GameSpotBlog',
       appLink: 'https://tranquil-tor-89831.herokuapp.com/',
       repoLink: 'https://github.com/alexm1937/gameSpotBlog'
     },
     {
-      //img:
+      img: img5,
       title: 'Hourly Work Planner',
       appLink: 'https://alexm1937.github.io/hourly-work-planner/',
       repoLink: 'https://github.com/alexm1937/hourly-work-planner'
     },
     {
-      //img:
+      img: img6,
       title: 'ReadMe-Generator',
       appLink: 'https://watch.screencastify.com/v/xOA9DzGpCk6acVz6sZGn',
       repoLink: 'https://github.com/alexm1937/ReadMe-Generator'
