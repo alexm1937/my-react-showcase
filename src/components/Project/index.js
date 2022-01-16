@@ -1,10 +1,4 @@
 import React from "react";
-// import img1 from "../../assets/imgs/what-song.png";
-// import ReadMeImg from "../../assets/imgs/readme.png";
-// import HourlyPlannerImg from "../../assets/imgs/hourly-planner.png";
-// import GameBlogImg from "../../assets/imgs/gameblog.jpg";
-// import BlogSpotImg from "../../assets/imgs/blogspot.png";
-// import whatSongImg from "../../assets/imgs/02-run-buddy.jpg";
 
 function Project(props) {
     //array containing proj objects
@@ -21,7 +15,9 @@ function Project(props) {
         className="card col-9 col-sm-5 m-4 mx-auto"
         key={project.title}
         >
-            <img src={project.img} className="card-img-top" alt=".a."/>
+            {/* image and link: */}
+            <a href={project.appLink} target="_blank"><img src={project.img} className="img-list card-img-top"  alt=".a."/></a>
+            {/* rest of card: */}
             <div className="card-body">
             <h5 className="card-title">{project.title}</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -30,17 +26,7 @@ function Project(props) {
             </div>
         </div>
         ))}
-            {/* <a href='#'
-            //short circuit expression to highlight current section
-            className={`nav-link fw-bold ${currentSection.name === section.name && `active aria-current`} `}
-            key={section.name}  
-            //gives onClick function to each btn
-            onClick={() => { setCurrentSection(section);}}> */}
-            {/* gives text value of name to btn and capitalizes first letter
-            {capitalizeFirstLetter(section.name)} </a>  */}
-
-
-
+        
         </div>
     );
 }

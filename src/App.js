@@ -30,7 +30,7 @@ function App() {
   //project data (REQUIRES SIX PROJECTS)
   const [projects] = useState([
     {
-      img: img1,
+      img: img3,
       title: 'Run Buddy',
       appLink: 'https://alexm1937.github.io/run-buddy/',
       repoLink: 'https://github.com/alexm1937/run-buddy'
@@ -42,7 +42,7 @@ function App() {
       repoLink: 'https://github.com/alexm1937/blogSpot'
     },
     {
-      img: img3,
+      img: img1,
       title: 'What Is That Song',
       appLink: 'https://alexm1937.github.io/what-is-that-song/',
       repoLink: 'https://github.com/alexm1937/what-is-that-song'
