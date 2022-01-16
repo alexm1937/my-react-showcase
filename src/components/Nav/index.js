@@ -1,17 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
-    // const [sections] = useState([
-    //     {
-    //       name: 'about',
-    //       description: 'About Me Page',
-    //     },
-    //     { name: 'portfolio', description: 'Portfolio of my work' },
-    //     { name: 'contact', description: 'How to get ahold of me' },
-    //     { name: 'resume', description: 'My resume page' },
-    //   ]);
-    // const [currentSection, setCurrentSection] = useState(sections[0]);
     const {
         sections = {},
         setCurrentSection,
@@ -19,36 +9,32 @@ function Nav(props) {
     } = props; 
 
     return (
-        <nav className="navbar navbar-expand navbar-light bg-light">
+        <nav className="navbar navbar-expand navbar-light bg-4">
         <div className="container-fluid d-flex flex-wrap">
-            <a className="navbar-brand" href="#">Alex M</a>
+            <a className="navbar-brand fw-bold" href="#">Alex M</a>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <div className="navbar-nav  d-flex flex-wrap">
-                    {/* <a className="nav-link" href='#'>About Me</a>
-                    <a className="nav-link" href="#">Portfolio</a>
-                    <a className="nav-link" href="#">Contact Me</a>
-                    <a className="nav-link" href="#">Resume</a> */}
-
+                    {/* creates an <a> nav tag for every section in sectionsArr */}
                     {sections.map((section) => (
                         <a
-                        className={`nav-link ${currentSection.name === section.name && `active aria-current`} `}
+                        className={`nav-link fw-bold ${currentSection.name === section.name && `active aria-current`} `}
                         key={section.name}
                         >
                         <span
-                            onClick={() => {
-                            setCurrentSection(section);
+                            // give each button a function to update state when clicked
+                            onClick={() => { 
+                            setCurrentSection(section); 
                             }}
                         >
                             {capitalizeFirstLetter(section.name)}
                         </span>
                         </a>
                     ))}
-
-
                 </div>
             </div>
         </div>
         </nav>
     );      
 }
+
 export default Nav;

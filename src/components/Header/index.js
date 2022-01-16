@@ -17,7 +17,7 @@ function Header(props) {
                 currentSection={currentSection}
             ></Nav>
             <figure className="only-best">
-            <h2>Only The Best!</h2>
+            {/* <h2>Only The Best!</h2> */}
             <img src={avatart} alt='avatar image' className="avatart"></img>
             </figure>
         </div>
