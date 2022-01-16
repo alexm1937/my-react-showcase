@@ -38,7 +38,7 @@ function ContactForm() {
       }
 
     return (
-      <form className="p-4 bg-4" id="contact-form" onSubmit={handleSubmit}>
+      <form className="p-4 bg-6" id="contact-form" onSubmit={handleSubmit}>
 
         <div className="mb-3 customclass1 d-block mx-auto">
           <label htmlFor="email" className="form-label">Email Address:</label>

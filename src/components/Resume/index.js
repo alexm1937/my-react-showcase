@@ -3,14 +3,14 @@ import React from "react";
 function Resume() {
 
     return(
-        <div className="bg-4 container-fluid">
+        <div className="bg-6 container-fluid">
             <div className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
                 <p className="fs-4 my-0 mx-auto">You can download my resume <a href="https://docs.google.com/document/d/1wVHyrXYbDba2zHNYVDdzNSRwQcsDPO-2iEyGSCS4ccs/edit?usp=sharing" target="_blank" className="text-decoration-none">right-here</a>, or see a summary of my skills below!</p>
                 <p className="fs-6 mx-auto">(NOTE: You will be directed to Google Drive. Simply click file, then click download and select your preffered format!)</p>
 
             </div>
 
-            <div className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+            <div className="d-flex flex-wrap justify-content-between align-items-center py-3">
                 <div className="col-4">
                     <h3>Front End Tech</h3>
                     <ul>

@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
 
     return (
-        <div className="container-fluid px-5">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div className="container-fluid px-2 bg-6">
+        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3">
           
           {/* Left side text */}
           <div className="col-md-4 d-flex align-items-center">

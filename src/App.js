@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import ContactForm from './components/Contact';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-// import Nav from './components/Nav';
-import Footer from './components/Footer';
-// import Project from './components/Project';
+import Header from './components/Header'; //imports header (with nav components, and avart img)
+import About from './components/About'; //About page content
+import ContactForm from './components/Contact'; //contact page
+import Portfolio from './components/Portfolio'; //Portfolio page (with project components)
+import Resume from './components/Resume'; //resume
+import Footer from './components/Footer'; //footer
 
 function App() {
 

@@ -11,6 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* my custom colors */
 .bg-1 {
   background-color:  #484a47ff;
 }
@@ -26,6 +28,15 @@ code {
 .bg-5{
   background-color:  #bea8a7ff;
 }
+.bg-6{
+background-color: #d9d9d9;
+}
+.text-1{
+  color: #fce138;
+}
+/* end custom colors */
+
+/* hero/header bg image */
 .only-best {
   background-image: url("./assets/imgs/bg1.jpg");
   height: 200px;
@@ -35,18 +46,97 @@ code {
   text-align: right;
   margin: 0;
 }
+/* avatar image */
 .avatart {
   height: 180px;
   /* width: 200px; */
 }
-.customclass1 {
-  max-width: 1000px;
+
+
+
+/* for hardcode porfolio test */
+.main-sect {
+  display: flex;
+  background-color: #686868;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.work {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 50px;
+  text-align: center;
+  color: #fce138;
+}
+.work-thumbs {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.img-run-buddy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.img-run-buddy img {
+  align-items: center;
+  object-fit: cover;
+  height: 686px;
+  width: 1242px;
+  border: 3px solid #fce138;
+  /* filter: url(filters.svg#grayscale); */
+  filter: url(/src/assets/filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+.img-run-buddy img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+.overlay1 {
+  position: absolute;
+  bottom: 7px;
+  left: 0px;
+  background-color: #fce138;
+  color: teal;
+  font-size: 35px;
+  font-weight: bold;
+}
+.overlay2 {
+  position: absolute;
+  top: 16px;
+  left: 8px;
+  background-color: #fce138;
+  color: teal;
+  font-size: 25px;
+  font-weight: bold;
+}
+.img-list {
+  position: relative
+}
+.img-list img {
+  align-items: center;
+  object-fit: cover;
+  height: 473px;
+  width: 613px;
+  margin: 5px;
+  border: 3px solid #fce138;
+  filter: url(/src/assets/filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+.img-list img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
 
-/* CSS HEX */
-/* --davys-grey: #484a47ff;
---cadet: #5c6d70ff;
---middle-blue-green: #b8e0d2ff;
---honeydew: #d6eadfff;
---silver-pink: #bea8a7ff; */
+/* .customclass1 {
+  max-width: 1000px;
+} */
+

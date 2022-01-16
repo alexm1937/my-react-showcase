@@ -9,11 +9,11 @@ function Nav(props) {
     } = props; 
 
     return (
-        <nav className="navbar navbar-expand navbar-light bg-4">
+        <nav className="navbar navbar-expand navbar-dark bg-2">
         <div className="container-fluid d-flex flex-wrap">
             <a className="navbar-brand fw-bold" href="#">Alex M</a>
             <div className="collapse navbar-collapse" id="navbarNav">
-                <div className="navbar-nav  d-flex flex-wrap">
+                <div className="navbar-nav d-flex flex-wrap">
                     {/* creates an <a> nav tag for every section in sectionsArr */}
                     {sections.map((section) => (
                         <a href='#'
