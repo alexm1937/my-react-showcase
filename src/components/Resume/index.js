@@ -11,8 +11,8 @@ function Resume() {
             </div>
 
             <div className="d-flex flex-wrap justify-content-between align-items-center py-3">
-                <div className="col-4">
-                    <h3>Front End Tech</h3>
+                <div className="col-md-4 mx-auto">
+                    <h3 className="text-center">Front End Tech</h3>
                     <ul>
                         <li className="fs-5">HTML/CSS and Frameworks</li>
                     </ul>
@@ -36,8 +36,8 @@ function Resume() {
                     </ul>
                 </div>
 
-                <div className="col-4">
-                    <h3>Back End Tech</h3>
+                <div className="col-md-4 mx-auto">
+                    <h3 className="text-center">Back End Tech</h3>
                     <ul>
                         <li className="fs-5">Node.JS</li>
                     </ul>
