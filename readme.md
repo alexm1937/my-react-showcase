@@ -1,4 +1,9 @@
-
+ # Welcome to my portfolio!
+ 
+ ![Screenshot (53)](https://user-images.githubusercontent.com/88976571/150167909-557e21a9-1f60-4a30-9b67-95b03a4a4263.png)
+ </br>
+ Find my live website here: https://alexm1937.github.io/my-react-showcase/#
+https://alexm1937.github.io/my-react-showcase/#
 
 
 
