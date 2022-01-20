@@ -68,7 +68,7 @@ background-color: #d9d9d9;
   border: 3px solid #d9d9d9;
 }
 
-/* hover effct on portfolio imgs on desktop browsers */
+/* hover effct on portfolio imgs on larger (desktops) browsers */
 @media only screen and (min-width: 992px) {
   .img-list {
     border: 3px solid #fce138;

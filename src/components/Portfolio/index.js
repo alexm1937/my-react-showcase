@@ -6,7 +6,6 @@ function Portfolio(props) {
 
     return (
     <div className="bg-2">
-        {/* <section className="work my-0" id="work"> */}
         <section className="work my-0" id="work">
         My Work
         </section>
