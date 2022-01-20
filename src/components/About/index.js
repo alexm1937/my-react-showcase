@@ -9,12 +9,12 @@ function About() {
          </span>
          <section className="right-text"> 
             <p className="fs-4">
-                I am a very eagler to learn, very hardworking coder! 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mol litia 
-                facere esse minus nisi reiciendis exercitationem dignissimos molestiae sequi est commodi neque ab repellat vel pariatur eum perspiciatis quam, nostrum veritatis.
+                Hello, and thank you for visiting my portfolio. My name is Alex McDaniel, and if you are here then I am seeking meaningful, long term employment! 
+                I am a junior full stack web developer looking for my first development job. I have experience in many areas but I also have very much to learn.
+                I love to keep learning new things, improving however I can. I am a self motivated worker and learner, and I pick up on new things very quickly.
             </p>
-            <p className="fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident expedita culpa blanditiis laudantium sit. Labore eligendi dolores voluptas nihil, 
-                sunt iste ratione pariatur inventore assumenda odit dolore iusto quod blanditiis!
+            <p className="fs-4">
+                
             </p>
          </section>
         </div>
