@@ -12,6 +12,7 @@ import img5 from "./assets/imgs/hourly-planner.png";
 import img4 from "./assets/imgs/gameblog.jpg";
 import img2 from "./assets/imgs/blogspot.png";
 import img3 from "./assets/imgs/02-run-buddy.jpg";
+import img7 from "./assets/imgs/still-good.png";
 
 function App() {
 
@@ -43,6 +44,13 @@ function App() {
       appLink: 'https://infinite-dawn-27184.herokuapp.com/',
       repoLink: 'https://github.com/alexm1937/blogSpot',
       description: "This is a simple blog website I built, both the minimum functionality front end, as well as the back end server app, API's, and database structure. This allows the creation of user account, logging in and out, as well as posting, commenting on other posts, editting and deleting. This app is deployed live; you can see how it works for yourself. Built using node.js, mysql, sequelize and express primarily."
+    },
+    {
+      img: img7,
+      title: 'Still Good',
+      appLink: 'https://pacific-bayou-24755.herokuapp.com/itemList',
+      repoLink: 'https://github.com/alexm1937/still-good',
+      description: 'This is our final group project! Tons of packagaes and dependencies used, we built a fully functional PWA to keep track of perishables!'
     },
     {
       img: img1,
