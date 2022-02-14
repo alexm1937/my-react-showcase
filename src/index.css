@@ -67,6 +67,11 @@ background-color: #d9d9d9;
   height: 300px;
   border: 3px solid #d9d9d9;
 }
+ul.no-bullets {
+  list-style-type: none;
+  /* margin: 0; */
+  /* padding: 0; */
+}
 
 /* hover effct on portfolio imgs on larger (desktops) browsers */
 @media only screen and (min-width: 992px) {

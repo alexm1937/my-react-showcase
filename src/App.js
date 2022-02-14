@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header'; //imports header (with nav components, and avart img)
 import About from './components/About'; //About page content
-import ContactForm from './components/Contact'; //contact page
+import Contact from './components/Contact'; //contact page
 import Portfolio from './components/Portfolio'; //Portfolio page (with project components)
 import Resume from './components/Resume'; //resume 
 import Footer from './components/Footer'; //footer
@@ -29,7 +29,7 @@ function App() {
   //hooks and state of section
   const [currentSection, setCurrentSection] = useState(sections[0]);
 
-  //project data (REQUIRES SIX PROJECTS)
+  //project data
   const [projects] = useState([
     {
       img: img3,
@@ -43,7 +43,7 @@ function App() {
       title: 'BlogSpot',
       appLink: 'https://infinite-dawn-27184.herokuapp.com/',
       repoLink: 'https://github.com/alexm1937/blogSpot',
-      description: "This is a simple blog website I built, both the minimum functionality front end, as well as the back end server app, API's, and database structure. This allows the creation of user account, logging in and out, as well as posting, commenting on other posts, editting and deleting. This app is deployed live; you can see how it works for yourself. Built using node.js, mysql, sequelize and express primarily."
+      description: "This is a simple blog website I built, both the minimum functionality front end, as well as the back end server app, API's, and database structure. This allows the creation of user account, logging in and out, as well as posting, commenting on other posts, editing and deleting. This app is deployed live; you can see how it works for yourself. Built using node.js, mysql, sequelize and express primarily."
     },
     {
       img: img7,
@@ -100,7 +100,7 @@ function App() {
         //props for portfolio / proj components:
         projects = {projects}
         ></Portfolio> }
-        { currentSection === sections[2] && <ContactForm></ContactForm> }
+        { currentSection === sections[2] && <Contact></Contact> }
         { currentSection === sections[3] && <Resume></Resume> }
         <Footer></Footer>
       </main>
