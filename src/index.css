@@ -73,6 +73,11 @@ ul.no-bullets {
   /* padding: 0; */
 }
 
+.vw100 {
+  width: 100vw;
+  text-align: center;
+}
+
 /* hover effct on portfolio imgs on larger (desktops) browsers */
 @media only screen and (min-width: 992px) {
   .img-list {

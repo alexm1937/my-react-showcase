@@ -10,9 +10,9 @@ function About() {
          <section className="right-text"> 
             <p className="fs-4">
                 Hello, and thank you for visiting my portfolio. <br></br> 
-                My name is Alex McDaniel, and if you are here then I am seeking meaningful, long term employment! <br></br> 
+                My name is Alex McDaniel, and I am currently seeking meaningful, long term employment! <br></br> 
                 <br></br> 
-                I am a junior full stack web developer looking for my first development job. I have experience in many areas, but I also have very much to learn.
+                I am an aspirings junior full stack web developer looking for my first development job. I have experience in many areas, but I also have very much to learn.
                 I am primarily experienced in HTML, CSS, Javascript and Git/Github. Including add-ons and libraries such as Bootrap, Tailwind, Jquery, Node, Express and more, 
                 as well as full stacks using mySQL, RESTful API's and MongoDB MERN stack. <br></br> 
                 <br></br> 
