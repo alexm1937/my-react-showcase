@@ -6,7 +6,7 @@
  
  </br>
  
- Find my live website here: https://alexm1937.github.io/my-react-showcase/#
+ Find my live website here:
 https://alexm1937.github.io/my-react-showcase/#
 
 
